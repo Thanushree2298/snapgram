@@ -21,7 +21,7 @@ const Home = () => {
 
 
  
-
+  if (isErrorPosts || isErrorCreaters) {
   return (
     <div className="flex flex-1">
       <div className="home-container">
@@ -57,6 +57,7 @@ const Home = () => {
     </div>
   );
 };
+}
 
 
 export default Home;
