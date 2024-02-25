@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 
+
 import useDebounce from "@/hooks/useDebounce";
 
 
@@ -49,8 +50,8 @@ const Explore = () => {
 
   const shouldShowSearchResults = searchValue !== "";
   const shouldShowPosts = !shouldShowSearchResults && 
-    posts.pages.every((item) => item && item.documents.length === 0);
-
+    posts.pages.every((item:any) => item.documents.length === 0);
+ 
   return (
     <div className="explore-container">
       <div className="explore-inner_container">
@@ -98,8 +99,8 @@ const Explore = () => {
         ) : shouldShowPosts ? (
           <p className="text-light-4 mt-10 text-center w-full">End of posts</p>
         ) : (
-          posts.pages.map((item, index) => (
-            <GridPostList key={`page-${index}`} posts={item && item.documents} />
+          posts.pages.map((item: any, index:any) => (
+            <GridPostList key={`page-${index}`} posts={item.documents} />
           ))
         )}
       </div>
