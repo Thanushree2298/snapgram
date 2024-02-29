@@ -1,12 +1,5 @@
-<div align="center">
-  <br />
-   
-      <img src="https://raw.githubusercontent.com/Thanushree2298/snapgram/main/public/assets/images/side-img.png" alt="Project Banner">
-    </a>
-  <br />
+<h3 align="center">TailwindCSS Crash Course</h3>
 
-  <h3 align="center">TailwindCSS Crash Course</h3>
-</div>
 
 ## 📋 <a name="table">Table of Contents</a>
 
