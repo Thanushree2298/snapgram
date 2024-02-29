@@ -1,30 +1,106 @@
-# React + TypeScript + Vite
+<div align="center">
+  <br />
+   
+      <img src="https://github.com/Thanushree2298/snapgram/blob/main/public/assets/images/side-img.png" alt="Project Banner">
+    </a>
+  <br />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  <div>
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+  </div>
 
-Currently, two official plugins are available:
+  <h3 align="center">TailwindCSS Crash Course</h3>
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📋 <a name="table">Table of Contents</a>
 
-## Expanding the ESLint configuration
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Features](#features)
+4. 🤸 [Quick Start](#quick-start)
+5. 🔗 [Links](#links)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## <a name="introduction">🤖 Introduction</a>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+Master Tailwind CSS in two parts by first learning fundamentals, advanced techniques, and theming. Then, build a stunning Nike landing page, applying learned skills to create a visually impressive website.
+
+
+## <a name="tech-stack">⚙️ Tech Stack</a>
+
+- Tailwind CSS
+- React.js
+
+## <a name="features">🔋 Features</a>
+
+👉 **Maximizing Tailwind CSS**: Discover tips and tricks to make the most out of Tailwind CSS.
+
+👉 **Understanding Tailwind Internals**: Dive into the inner workings of Tailwind, gaining insights into its structure and optimizations.
+
+👉 **Best Practices**: Learn Tailwind's best practices for efficient and maintainable code.
+
+👉 **Theming**:Explore techniques to add different themes to your website using Tailwind CSS.
+
+👉 **JavaScript-like Tasks with Tailwind**: Discover how Tailwind CSS can be used to achieve tasks that typically require JavaScript code
+
+while building a beautiful Nike Website with a,
+
+👉 **Complex Hero Section**: A visually appealing hero section showcasing key elements.
+
+👉 **Popular Products Showcase**: A section highlighting popular Nike products
+
+👉 **About Us Section**: An informative "About Us" section with a unique design.
+
+👉 **Special Offers**: Showcase special offers in an eye-catching manner
+
+👉 **Testimonials**: A testimonials section for a captivating user experience
+
+👉 **Newsletter Integration**: A newsletter section with Tailwind styling, encouraging user engagement
+
+👉 **Footer**: A comprehensive footer section containing various links
+
+👉 **Mobile Responsive**: The entire website is responsive across various devices, emphasizing Tailwind's mobile-friendly capabilities.
+
+and many more, including code architecture and reusability 
+
+## <a name="quick-start">🤸 Quick Start</a>
+
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+**Cloning the Repository**
+
+```bash
+git clone https://github.com/adrianhajdin/nike_landing_page.git
+cd nike_landing_page
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+**Installation**
+
+Install the project dependencies using npm:
+
+```bash
+npm install
+```
+
+
+**Running the Project**
+
+```bash
+npm start
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+
+## <a name="links">🔗 Links</a>
+
+- Assets used in the project are [here](https://drive.google.com/file/d/1ccqjc8gJ7CLvXT_vUhVT4Gmys-Ze13FK/view)
+- [Tailwind Play](https://play.tailwindcss.com/)
+
