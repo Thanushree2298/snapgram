@@ -1,4 +1,12 @@
-<h3 align="center">TailwindCSS Crash Course</h3>
+<div>
+    <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
+    <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" alt="appwrite" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+    <img src="https://img.shields.io/badge/-React_Query-black?style=for-the-badge&logoColor=white&logo=reactquery&color=FF4154" alt="reactquery" />
+    <img src="https://img.shields.io/badge/-Typescript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
+  </div>
+
+  <h3 align="center">A Social Media Application</h3>
 
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -12,45 +20,44 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-Master Tailwind CSS in two parts by first learning fundamentals, advanced techniques, and theming. Then, build a stunning Nike landing page, applying learned skills to create a visually impressive website.
+Explore social media with this user-friendly platform that has a nice look and lots of features. Easily create and explore posts, and enjoy a strong authentication system and quick data fetching using React Query for a smooth user experience.
 
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- Tailwind CSS
+
 - React.js
+- Appwrite
+- React Query
+- TypeScript
+- Shadcn
+- Tailwind CSS
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Maximizing Tailwind CSS**: Discover tips and tricks to make the most out of Tailwind CSS.
+👉 **Authentication System**: A robust authentication system ensuring security and user privacy
 
-👉 **Understanding Tailwind Internals**: Dive into the inner workings of Tailwind, gaining insights into its structure and optimizations.
+👉 **Explore Page**: Homepage for users to explore posts, with a featured section for top creators
 
-👉 **Best Practices**: Learn Tailwind's best practices for efficient and maintainable code.
+👉 **Like and Save Functionality**: Enable users to like and save posts, with dedicated pages for managing liked and saved content
 
-👉 **Theming**:Explore techniques to add different themes to your website using Tailwind CSS.
+👉 **Detailed Post Page**: A detailed post page displaying content and related posts for an immersive user experience
 
-👉 **JavaScript-like Tasks with Tailwind**: Discover how Tailwind CSS can be used to achieve tasks that typically require JavaScript code
+👉 **Profile Page**: A user profile page showcasing liked posts and providing options to edit the profile
 
-while building a beautiful Nike Website with a,
+👉 **Browse Other Users**: Allow users to browse and explore other users' profiles and posts
 
-👉 **Complex Hero Section**: A visually appealing hero section showcasing key elements.
+👉 **Create Post Page**: Implement a user-friendly create post page with effortless file management, storage, and drag-drop feature
 
-👉 **Popular Products Showcase**: A section highlighting popular Nike products
+👉 **Edit Post Functionality**: Provide users with the ability to edit the content of their posts at any time
 
-👉 **About Us Section**: An informative "About Us" section with a unique design.
+👉 **Responsive UI with Bottom Bar**: A responsive UI with a bottom bar, enhancing the mobile app feel for seamless navigation
 
-👉 **Special Offers**: Showcase special offers in an eye-catching manner
+👉 **React Query Integration**: Incorporate the React Query (Tanstack Query) data fetching library for, Auto caching to enhance performance, Parallel queries for efficient data retrieval, First-class Mutations, etc
 
-👉 **Testimonials**: A testimonials section for a captivating user experience
+👉 **Backend as a Service (BaaS) - Appwrite**: Utilize Appwrite as a Backend as a Service solution for streamlined backend development, offering features like authentication, database, file storage, and more
 
-👉 **Newsletter Integration**: A newsletter section with Tailwind styling, encouraging user engagement
-
-👉 **Footer**: A comprehensive footer section containing various links
-
-👉 **Mobile Responsive**: The entire website is responsive across various devices, emphasizing Tailwind's mobile-friendly capabilities.
-
-and many more, including code architecture and reusability 
+and many more, including code architecture and reusability  
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -67,18 +74,29 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/nike_landing_page.git
-cd nike_landing_page
+git clone 
+cd snapgram
 ```
 
 **Installation**
 
 Install the project dependencies using npm:
 
-```bash
-npm install
+**Set Up Environment Variables**
+
+Create a new file named `.env` in the root of your project and add the following content:
+
+```env
+VITE_APPWRITE_URL=
+VITE_APPWRITE_PROJECT_ID=
+VITE_APPWRITE_DATABASE_ID=
+VITE_APPWRITE_STORAGE_ID=
+VITE_APPWRITE_USER_COLLECTION_ID=
+VITE_APPWRITE_POST_COLLECTION_ID=
+VITE_APPWRITE_SAVES_COLLECTION_ID=
 ```
 
+Replace the placeholder values with your actual Appwrite credentials. You can obtain these credentials by signing up on the [Appwrite website](https://appwrite.io/).
 
 **Running the Project**
 
@@ -86,10 +104,10 @@ npm install
 npm start
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+
 
 ## <a name="links">🔗 Links</a>
 
-- Assets used in the project are [here](https://drive.google.com/file/d/1ccqjc8gJ7CLvXT_vUhVT4Gmys-Ze13FK/view)
-- [Tailwind Play](https://play.tailwindcss.com/)
+Assets used in the project are [here](https://drive.google.com/file/d/13_7FofRAC3wARqPtAVPi53QNJJRd5RH_/view?usp=sharing)
 
