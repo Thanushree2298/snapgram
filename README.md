@@ -1,13 +1,9 @@
 <div align="center">
   <br />
    
-      <img src="https://github.com/Thanushree2298/snapgram/blob/main/public/assets/images/side-img.png" alt="Project Banner">
+      <img src="https://raw.githubusercontent.com/Thanushree2298/snapgram/main/public/assets/images/side-img.png" alt="Project Banner">
     </a>
   <br />
-
-  <div>
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-  </div>
 
   <h3 align="center">TailwindCSS Crash Course</h3>
 </div>
